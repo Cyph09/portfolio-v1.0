@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 
 const About = () => (
   <Layout>
+    <h3>About Me!</h3>
     <p>
       Hi! My name is Swaleh Mhina. I'm passionate about web development. I build
       sites with HTML5, CSS3, and JavaScript.

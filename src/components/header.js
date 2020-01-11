@@ -3,33 +3,71 @@ import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
 
 const Header = () => (
-  <>
-    <h1>Swaleh Mhina</h1>
+  <div className={headerStyles.header}>
+    <h1>
+      <Link className={headerStyles.title} to="/">
+        Swaleh Mhina
+      </Link>
+    </h1>
     <nav>
-      <ul>
+      <ul className={headerStyles.navList}>
         <li>
-          <Link className={headerStyles.link} to="/">
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about">About Me</Link>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/about"
+          >
+            About Me
+          </Link>
         </li>
         <li>
-          <Link to="/process">Process</Link>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/process"
+          >
+            Process
+          </Link>
         </li>
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/portfolio"
+          >
+            Portfolio
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/contact"
+          >
+            Contact
+          </Link>
         </li>
         <li>
-          <Link to="/blog">Blog</Link>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.navItemActive}
+            to="/blog"
+          >
+            Blog
+          </Link>
         </li>
       </ul>
     </nav>
-  </>
+  </div>
 )
 
 export default Header
