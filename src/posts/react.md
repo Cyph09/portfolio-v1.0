@@ -5,7 +5,7 @@ date: "20-14-01"
 
 React for complete beginner
 
-#Topics covered
+###Topics covered
 
 1.  What is react?
 2.  Who is it for?

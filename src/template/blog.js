@@ -16,10 +16,14 @@ export const query = graphql`
 `
 
 const blogTemplate = props => {
-    console.log(props.data);
+  console.log(props.data)
   return (
     <Layout>
       <h2>{props.data.markdownRemark.frontmatter.title}</h2>
+      <p>{props.data.markdownRemark.frontmatter.date}</p>
+      <div
+        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+      ></div>
     </Layout>
   )
 }

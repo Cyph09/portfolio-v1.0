@@ -5,7 +5,7 @@ date: "2020-13-01"
 
 I just learned Great Gatsy
 
-#Topics learned
+###Topics learned
 
 1.  Gatsby
 2.  Graphiql
