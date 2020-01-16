@@ -7,7 +7,7 @@ const IndexPage = () => (
     <div>
       <h2>Habari!</h2>
       <h3>
-        I'm Swaleh Mhina, I'm a full stack developer from Arusha Tanzania.
+        I'm Swaleh, I'm a full stack developer from Arusha Tanzania.
       </h3>
       <p>
         Need a developer? <Link to="/contact">Contact me!</Link>
